@@ -1,0 +1,14 @@
+{
+  "name": "Stack Overflow unhooked",
+  "version": "1",
+  "description": "Hides distracting part of SO",
+   "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://stackoverflow.com/*"],
+      "css": ["styles.css"],
+      "all_frames": true
+    }
+  ],
+  "manifest_version": 2
+}
