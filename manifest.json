@@ -5,7 +5,7 @@
    "content_scripts": [
     {
       "run_at": "document_start",
-      "matches": ["https://stackoverflow.com/*"],
+      "matches": ["https://stackoverflow.com/*", "https://stackexchange.com/*","https://superuser.com/*"],
       "css": ["styles.css"],
       "all_frames": true
     }
